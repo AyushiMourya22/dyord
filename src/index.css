@@ -1,0 +1,27 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.dark{
+  
+  color: #fff;
+}
+body{
+  box-sizing: border-box;
+  /* font-size: 12px; */
+  height: 100%;
+  margin: 0;
+  /* overflow: hidden; */
+  padding: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 100%;
+  /* background-color: black; */
+  min-height: 100vh;
+}
+.start{
+  font-family: 'Outfit', sans-serif;
+}
+
